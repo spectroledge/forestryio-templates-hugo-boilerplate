@@ -23,7 +23,6 @@ build:
   preview_env:
   - HUGO_ENV=staging
   preview_output_directory: public
-  install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:node12
   mount_path: "/srv"
   instant_preview_command: hugo server -D -E -F --renderToDisk -d public
