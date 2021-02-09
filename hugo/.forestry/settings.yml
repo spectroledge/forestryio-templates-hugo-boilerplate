@@ -21,7 +21,7 @@ use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"
 build:
   preview_env:
-  - HUGO_ENV=HUGO_VERSION 0.80.0
+  - HUGO_ENV=HUGO_VERSION 0.72.0
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:node12
   mount_path: "/srv"
